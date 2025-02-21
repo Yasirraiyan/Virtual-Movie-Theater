@@ -1,0 +1,71 @@
+/* Chat Container */
+.chat-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  overflow-y: auto; /* Ensure chat is scrollable */
+  max-height: 300px; /* Set a max height for chat */
+}
+
+/* Media Gallery */
+.media-gallery {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  overflow-y: auto; /* Ensure gallery is scrollable */
+  max-height: 300px; /* Set a max height for gallery */
+}
+/* Chat Container */
+.chat-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  overflow-y: auto; /* Ensure chat is scrollable */
+  max-height: 300px; /* Set a max height for chat */
+}
+
+/* Media Gallery */
+.media-gallery {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  overflow-y: auto; /* Ensure gallery is scrollable */
+  max-height: 300px; /* Set a max height for gallery */
+
+.cine-sync-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb, #a6c1ee, #fbc2eb);
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+  color: #333; /* Darker text for better contrast */
+  overflow: hidden;
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  gap: 20px; /* Space between sections */
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
